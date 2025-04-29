@@ -1,0 +1,9 @@
+maven_group\selemium_maven\pageObjects\CheckoutPage.class
+maven_group\selemium_maven\pageObjects\App.class
+maven_group\selemium_maven\pageObjects\orderPage.class
+maven_group\selemium_maven\pageObjects\ThankyouPage.class
+maven_group\selemium_maven\pageObjects\LandingPage.class
+maven_group\AbstractComponents\AbstractComponents.class
+maven_group\selemium_maven\resources\ExtentReporterNG.class
+maven_group\selemium_maven\pageObjects\cartPage.class
+maven_group\selemium_maven\pageObjects\ProductCatalogue.class
