@@ -8,33 +8,12 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">ErrorValidationsTest</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">62,503</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">SubmitOrderTest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">97,244</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num attn">1</th><th class="num attn">1</th><th class="num">159,747</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">62,138</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ErrorValidationsTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">maven_group.selemium_maven.tests.ErrorValidations</td><td><a href="#m0">LoginErrorValidation</a></td><td rowspan="1">1745838492542</td><td rowspan="1">1833</td></tr><tr><th colspan="4">ErrorValidationsTest &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">maven_group.selemium_maven.tests.ErrorValidations</td><td><a href="#m1">LoginErrorValidation</a></td><td rowspan="1">1745838477089</td><td rowspan="1">2586</td></tr><tr><th colspan="4">ErrorValidationsTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">maven_group.selemium_maven.tests.ErrorValidations</td><td><a href="#m2">ProductErrorValidation</a></td><td rowspan="1">1745838502335</td><td rowspan="1">11315</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">SubmitOrderTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">maven_group.selemium_maven.tests.SubmitOrderTest</td><td><a href="#m3">OrderHistoryTest</a></td><td rowspan="1">1745838548706</td><td rowspan="1">2013</td></tr><tr class="passedeven"><td><a href="#m4">SubmitOrder</a></td><td rowspan="2">1745838515941</td><td rowspan="2">28037</td></tr><tr class="passedeven"><td><a href="#m5">SubmitOrder</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">cucumber.TestNGTestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1746796009095</td><td rowspan="2">30407</td></tr><tr class="passedeven"><td><a href="#m1">runScenario</a></td></tr></tbody>
 </table>
-<h2>ErrorValidationsTest</h2><h3 id="m0">maven_group.selemium_maven.tests.ErrorValidations#LoginErrorValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
-	at maven_group.selemium_maven.tests.ErrorValidations.LoginErrorValidation(ErrorValidations.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">maven_group.selemium_maven.tests.ErrorValidations#LoginErrorValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
-	at maven_group.selemium_maven.tests.ErrorValidations.LoginErrorValidation(ErrorValidations.java:47)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">maven_group.selemium_maven.tests.ErrorValidations#ProductErrorValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>SubmitOrderTest</h2><h3 id="m3">maven_group.selemium_maven.tests.SubmitOrderTest#OrderHistoryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">maven_group.selemium_maven.tests.SubmitOrderTest#SubmitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Tester@123, product=ZARA COAT 3, email=maryam@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">maven_group.selemium_maven.tests.SubmitOrderTest#SubmitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Tester@123, product=IPHONE 13 PRO, email=shama@yopmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">cucumber.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Positive test of submitting an order&quot;</td><td>&quot;Purchase an order from e-commerce website&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">cucumber.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Positive test of submitting an order&quot;</td><td>&quot;Purchase an order from e-commerce website&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

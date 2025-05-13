@@ -1,185 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T16:37:34 IST" name="Suite" finished-at="2025-04-28T16:39:11 IST" duration-ms="97247">
+  <suite started-at="2025-05-09T18:36:17 IST" name="Default suite" finished-at="2025-05-09T18:37:19 IST" duration-ms="62138">
     <groups>
-      <group name="purchase">
-        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" name="SubmitOrder" class="maven_group.selemium_maven.tests.SubmitOrderTest"/>
-      </group> <!-- purchase -->
-      <group name="Error Handling">
-        <method signature="ErrorValidations.LoginErrorValidation()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" name="LoginErrorValidation" class="maven_group.selemium_maven.tests.ErrorValidations"/>
-      </group> <!-- Error Handling -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@5890e879]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-28T16:37:34 IST" name="ErrorValidationsTest" finished-at="2025-04-28T16:38:37 IST" duration-ms="62503">
-      <class name="maven_group.selemium_maven.tests.ErrorValidations">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" started-at="2025-04-28T16:37:35 IST" name="launchApplication" finished-at="2025-04-28T16:37:57 IST" duration-ms="21950" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method retried="true" signature="LoginErrorValidation()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" started-at="2025-04-28T16:37:57 IST" name="LoginErrorValidation" finished-at="2025-04-28T16:37:59 IST" duration-ms="2586" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at maven_group.selemium_maven.tests.ErrorValidations.LoginErrorValidation(ErrorValidations.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:831)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" started-at="2025-04-28T16:37:59 IST" name="tearDown" finished-at="2025-04-28T16:38:01 IST" duration-ms="2125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" started-at="2025-04-28T16:38:01 IST" name="launchApplication" finished-at="2025-04-28T16:38:12 IST" duration-ms="10671" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="LoginErrorValidation()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" started-at="2025-04-28T16:38:12 IST" name="LoginErrorValidation" finished-at="2025-04-28T16:38:14 IST" duration-ms="1833" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at maven_group.selemium_maven.tests.ErrorValidations.LoginErrorValidation(ErrorValidations.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:831)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" started-at="2025-04-28T16:38:15 IST" name="tearDown" finished-at="2025-04-28T16:38:15 IST" duration-ms="527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" started-at="2025-04-28T16:38:15 IST" name="launchApplication" finished-at="2025-04-28T16:38:22 IST" duration-ms="6385" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="ProductErrorValidation()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" started-at="2025-04-28T16:38:22 IST" name="ProductErrorValidation" finished-at="2025-04-28T16:38:33 IST" duration-ms="11315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:maven_group.selemium_maven.tests.ErrorValidations@2e2ff723]" started-at="2025-04-28T16:38:33 IST" name="tearDown" finished-at="2025-04-28T16:38:37 IST" duration-ms="3423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- maven_group.selemium_maven.tests.ErrorValidations -->
-    </test> <!-- ErrorValidationsTest -->
-    <test started-at="2025-04-28T16:37:34 IST" name="SubmitOrderTest" finished-at="2025-04-28T16:39:11 IST" duration-ms="97244">
-      <class name="maven_group.selemium_maven.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" started-at="2025-04-28T16:37:37 IST" name="launchApplication" finished-at="2025-04-28T16:37:57 IST" duration-ms="19355" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" started-at="2025-04-28T16:37:57 IST" name="SubmitOrder" data-provider="getdata" finished-at="2025-04-28T16:38:27 IST" duration-ms="30275" status="PASS">
+    <test started-at="2025-05-09T18:36:17 IST" name="Default test" finished-at="2025-05-09T18:37:19 IST" duration-ms="62138">
+      <class name="cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@5890e879]" started-at="2025-05-09T18:36:17 IST" name="setUpClass" finished-at="2025-05-09T18:36:17 IST" duration-ms="575" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Tester@123, product=IPHONE 13 PRO, email=shama@yopmail.com}]]>
+                <![CDATA[org.testng.TestRunner@180b3819]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" started-at="2025-04-28T16:38:27 IST" name="tearDown" finished-at="2025-04-28T16:38:27 IST" duration-ms="335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" started-at="2025-04-28T16:38:27 IST" name="launchApplication" finished-at="2025-04-28T16:38:35 IST" duration-ms="8239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" started-at="2025-04-28T16:38:35 IST" name="SubmitOrder" data-provider="getdata" finished-at="2025-04-28T16:39:03 IST" duration-ms="28037" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@5890e879]" started-at="2025-05-09T18:36:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T18:36:49 IST" duration-ms="31096" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Tester@123, product=ZARA COAT 3, email=maryam@gmail.com}]]>
+                <![CDATA["Positive test of submitting an order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase an order from e-commerce website"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SubmitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" started-at="2025-04-28T16:39:03 IST" name="tearDown" finished-at="2025-04-28T16:39:04 IST" duration-ms="245" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@5890e879]" started-at="2025-05-09T18:36:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-09T18:37:19 IST" duration-ms="30407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test of submitting an order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase an order from e-commerce website"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" started-at="2025-04-28T16:39:04 IST" name="launchApplication" finished-at="2025-04-28T16:39:08 IST" duration-ms="4478" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@5890e879]" started-at="2025-05-09T18:37:19 IST" name="tearDownClass" finished-at="2025-05-09T18:37:19 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" started-at="2025-04-28T16:39:08 IST" name="OrderHistoryTest" finished-at="2025-04-28T16:39:10 IST" depends-on-methods="maven_group.selemium_maven.tests.SubmitOrderTest.SubmitOrder" duration-ms="2013" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:maven_group.selemium_maven.tests.SubmitOrderTest@73194df]" started-at="2025-04-28T16:39:10 IST" name="tearDown" finished-at="2025-04-28T16:39:11 IST" duration-ms="1106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- maven_group.selemium_maven.tests.SubmitOrderTest -->
-    </test> <!-- SubmitOrderTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
